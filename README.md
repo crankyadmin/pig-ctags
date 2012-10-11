@@ -15,11 +15,11 @@ Then add the below to your vimrc file
 
         nmap <F8> :TagbarToggle<CR>
         let g:tagbar_type_pig = {
-            \\ 'ctagstype' : 'pig',
-            \\ 'kinds' : [
-         \\ 'a:Alias',
-                \\ 's:Set',
-                \\ 'r:REGISTER',
-                \\ 'd:DEFINE'
-         \\]
-        \\}
+            \ 'ctagstype' : 'pig',
+            \ 'kinds' : [
+         \ 'a:Alias',
+                \ 's:Set',
+                \ 'r:REGISTER',
+                \ 'd:DEFINE'
+         \]
+        \}
