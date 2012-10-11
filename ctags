@@ -1,0 +1,6 @@
+--langdef=pig
+--langmap=pig:.pig
+--regex-pig=/^([[:alpha:]]+)[[:space:]]=.*/\1/a,Alias/
+--regex-pig=/^set[[:space:]](.*)/\1/s,Set/
+--regex-pig=/^REGISTER[[:space:]](.*)/\1/r,REGISTER/
+--regex-pig=/^DEFINE[[:space:]](.*)/\1/d,DEFINE/
